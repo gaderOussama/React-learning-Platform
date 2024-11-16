@@ -1,0 +1,155 @@
+{
+
+ "Courses":[
+  {
+    "id": "1",
+    "courseName": "React JS Essentials",
+    "level": "Beginner",
+    "price": "$100",
+    "period": "4 weeks",
+    "description": "An introductory course designed to teach the fundamentals of React JS and help you build simple applications. You will understand the core concepts of React, learn how to set up a React development environment, build and manage React components, and work with JSX and props.",
+    "modules": [
+      {
+        "moduleId": "1.1",
+        "moduleName": "Introduction to React",
+        "topics": ["What is React?", "JSX Basics", "Setting Up the Development Environment"]
+      },
+      {
+        "moduleId": "1.2",
+        "moduleName": "React Components",
+        "topics": ["Class and Functional Components", "Props and State", "Rendering Components"]
+      },
+      {
+        "moduleId": "1.3",
+        "moduleName": "Handling Events in React",
+        "topics": ["Event Handling Basics", "Conditional Rendering", "Forms and Inputs"]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "courseName": "React JS Advanced Patterns",
+    "level": "Expert",
+    "price": "$200",
+    "period": "6 weeks",
+    "description": "A comprehensive course for experienced React developers to master advanced design patterns and improve code structure. You will implement advanced component patterns such as render props and HOCs, leverage context for better state management, optimize component performance with memoization, and understand code splitting and lazy loading.",
+    "modules": [
+      {
+        "moduleId": "2.1",
+        "moduleName": "Advanced Component Patterns",
+        "topics": ["Render Props", "Higher-Order Components", "Compound Components"]
+      },
+      {
+        "moduleId": "2.2",
+        "moduleName": "State Management with Context",
+        "topics": ["React Context API", "Context Performance Optimization", "Avoiding Prop Drilling"]
+      },
+      {
+        "moduleId": "2.3",
+        "moduleName": "Performance Optimization",
+        "topics": ["Memoization", "useMemo and useCallback", "Code Splitting"]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "courseName": "React JS for Beginners",
+    "level": "Beginner",
+    "price": "$90",
+    "period": "3 weeks",
+    "description": "A foundational course that covers React basics and helps you create your first React applications. You will get familiar with React component lifecycle, use props and state effectively, create functional and class-based components, and handle user inputs and events.",
+    "modules": [
+      {
+        "moduleId": "3.1",
+        "moduleName": "React Basics",
+        "topics": ["Setting Up React", "Understanding JSX", "Components and Props"]
+      },
+      {
+        "moduleId": "3.2",
+        "moduleName": "Working with State",
+        "topics": ["useState Hook", "Stateful vs Stateless Components", "Managing Local State"]
+      },
+      {
+        "moduleId": "3.3",
+        "moduleName": "Event Handling",
+        "topics": ["Handling Events", "Conditional Rendering", "Lists and Keys"]
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "courseName": "Mastering React Hooks",
+    "level": "Expert",
+    "price": "$180",
+    "period": "5 weeks",
+    "description": "An expert-level course focused on using React hooks to simplify code and improve functionality. You will understand useState, useEffect, and other built-in hooks, create custom hooks for reusable logic, manage complex state using useReducer, and optimize performance with useMemo and useCallback.",
+    "modules": [
+      {
+        "moduleId": "4.1",
+        "moduleName": "Basic Hooks",
+        "topics": ["useState", "useEffect", "Managing Side Effects"]
+      },
+      {
+        "moduleId": "4.2",
+        "moduleName": "Advanced Hooks",
+        "topics": ["useReducer", "useRef", "useLayoutEffect"]
+      },
+      {
+        "moduleId": "4.3",
+        "moduleName": "Custom Hooks",
+        "topics": ["Creating Custom Hooks", "Reusable Logic", "Optimizing Performance"]
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "courseName": "React JS Fundamentals",
+    "level": "Beginner",
+    "price": "$120",
+    "period": "5 weeks",
+    "description": "A course aimed at teaching the fundamental concepts and features of React for beginners. You will understand the basic principles of React, learn how to use JSX effectively, build simple interactive web components, and gain confidence in handling React state and props.",
+    "modules": [
+      {
+        "moduleId": "5.1",
+        "moduleName": "Introduction to React",
+        "topics": ["Understanding React", "JSX Syntax", "Creating Components"]
+      },
+      {
+        "moduleId": "5.2",
+        "moduleName": "Building Interactive Components",
+        "topics": ["Props and State", "Event Handling", "Dynamic Rendering"]
+      },
+      {
+        "moduleId": "5.3",
+        "moduleName": "Managing State",
+        "topics": ["Local and Global State", "useState Hook", "Component Hierarchy"]
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "courseName": "React Performance Optimization",
+    "level": "Expert",
+    "price": "$250",
+    "period": "8 weeks",
+    "description": "An in-depth course that teaches expert-level strategies for optimizing React applications. You will profile React applications to identify bottlenecks, implement techniques for code splitting and lazy loading, reduce unnecessary re-renders and optimize performance, and work with tools like React Profiler and DevTools.",
+    "modules": [
+      {
+        "moduleId": "6.1",
+        "moduleName": "Profiling and Identifying Bottlenecks",
+        "topics": ["Using React Profiler", "Identifying Performance Bottlenecks", "Optimization Tools"]
+      },
+      {
+        "moduleId": "6.2",
+        "moduleName": "Reducing Re-renders",
+        "topics": ["Memoization with React", "useMemo and useCallback", "Optimizing Component Renders"]
+      },
+      {
+        "moduleId": "6.3",
+        "moduleName": "Code Splitting and Lazy Loading",
+        "topics": ["React.lazy", "Suspense API", "Improving Load Times"]
+      }
+    ]
+  }
+]
+}
